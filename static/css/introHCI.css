@@ -14,6 +14,7 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #bfdde8;
 }
 
 .jumbotron {
@@ -37,10 +38,29 @@ p {
      font-variant: small-caps;
 }
 
+.project {
+     width: 400px;
+     float: left;
+     padding: 20px;
+}
+
 .project p{
      font-variant: small-caps;
+     text-align: center;
+     padding-top: 6px;
+     letter-spacing: 2px;
 }
+
+.project a:hover {
+     color: #ffb6c1;
+
+}
+
 
 #project1 {
      font-variant: small-caps;
+}
+
+.thumbnail img:hover {
+     opacity: 0.8;
 }
